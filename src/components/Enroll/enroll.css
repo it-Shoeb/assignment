@@ -1,0 +1,97 @@
+.enroll-card{
+    padding: 6rem;
+}
+
+.enroll-fullStack{
+    background: linear-gradient(15deg,#FFFFFF,#42ECFB,#AD7AE4,#FFE081);
+    border-radius: 48px;
+    width: 80%;
+    padding: 6rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    backdrop-filter: blur(140px);
+    position: relative;
+    overflow: hidden;
+    margin-block:2rem ;
+}
+
+.blur{
+    backdrop-filter: blur(14px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.enroll-dataScience{
+    background: linear-gradient(#B73BBE,#992E9D);
+    border-radius: 48px;
+    width: 80%;
+    padding: 6rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    backdrop-filter: blur(140px);
+    position: relative;
+    overflow: hidden;
+    margin-block:2rem ;
+    color: white;
+}
+
+.enroll-heading{
+    font-size: 2.5rem;
+    width: 80%;
+    margin: 1rem;
+}
+
+.enroll-description{
+    font-weight: normal;
+    margin: 1rem;
+}
+
+.enroll-cta{
+    padding: 12px 14px;
+    background-color: black;
+    border-radius: 14px;
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 0 10px;
+}
+
+
+.courses{
+    margin: 1.5rem;
+
+}
+
+.certificate{
+    margin: 1.5rem;
+}
+
+.access{
+    margin: 1.5rem;
+    
+}
+
+.count{
+    font-weight: normal;
+}
+
+@media (max-width:1020px){
+    .enroll-fullStack{
+        padding: 2rem;
+    }
+
+    .enroll-dataScience{
+        padding: 2rem;
+    }   
+
+}

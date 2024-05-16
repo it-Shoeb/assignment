@@ -1,0 +1,69 @@
+.Intership-container {
+  padding: 0 6rem;
+}
+
+.intership-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-block: 4rem;
+}
+
+.intership-section {
+  display: flex;
+  gap: 50px;
+}
+
+.certificate-card {
+  flex: 1;
+  background-color: #f9ebfc;
+  border-radius: 32px;
+  padding: 2rem;
+}
+.intership-card {
+  flex: 1;
+  background-color: #fffcea;
+  border-radius: 32px;
+  padding: 2rem;
+}
+
+.certificate-heading {
+  font-size: 1.8rem;
+  text-align: center;
+  /* width: 80%; */
+}
+.intership-c-heading {
+  font-size: 1.8rem;
+}
+.intership-description {
+  font-weight: normal;
+}
+
+.certificate-image, .intership-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificate-card .certificate-image,
+.intership-card .intership-image {
+  width: 100%;
+}
+
+.provider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+
+.provide {
+  background-color: #f9ebfc;
+  border: solid 1px #ecd6f1;
+}
+
+@media (max-width: 1020px) {
+  .intership-section {
+    flex-direction: column;
+  }
+}
+

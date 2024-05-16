@@ -1,0 +1,94 @@
+.opportunity-container {
+  padding: 6rem;
+}
+
+.opportunity-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  width: 50%;
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+.progresBar-container {
+  width: 30%;
+  background: linear-gradient(#9849ff, #841ee3);
+  padding: 32px 20px;
+  margin-inline: auto;
+  border-radius: 32px;
+  position: relative;
+}
+
+.floatingArrow{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.progressBar-heading {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.progressBar-timer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+
+.progreBar {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #686972;
+}
+
+.topCompanies-container{
+  background-color: #FFFCEA;
+  padding: 1rem 4rem;
+}
+
+.topCompanies-heading{
+  font-size: 2rem;
+  text-align: center;
+  margin-block: 1rem;
+}
+
+.companies-logos{
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.companies-logos::-webkit-scrollbar{
+  display: none;
+}
+
+.company-logo{
+  padding: 40px 80px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  margin: 1rem;
+}
+
+@media (max-width: 1020px) {
+  .opportunity-container {
+      margin-block: 4rem;
+    padding: 1rem;
+  }
+
+  .opportunity-heading {
+    width: 100%;
+    text-align: left;
+  }
+
+  .progresBar-container {
+    width: 100%;
+    background: linear-gradient(#9849ff, #841ee3);
+    padding: 32px 20px;
+    margin-inline: auto;
+    margin-block: 4rem;
+    border-radius: 32px;
+  }
+}

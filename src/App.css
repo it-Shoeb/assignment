@@ -29,3 +29,9 @@ a{
   box-shadow: 0 8px 12px -10px #992e9d;
   color: white;
 }
+
+.gradient{
+  background: linear-gradient(45deg, #B73BBE, #EBCB2E);
+  background-clip: text;
+  color: transparent;
+}
