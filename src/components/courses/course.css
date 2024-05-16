@@ -1,0 +1,121 @@
+.vr {
+  background-color: #686972;
+  width: 1px;
+  height: 80px;
+}
+
+.achievements {
+  padding: 1.9rem 6rem;
+  background-color: #f9ebfc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.achievement {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  line-height: 1;
+}
+
+.achievement-heading {
+  font-size: 2.5rem;
+}
+
+.achievement-name {
+  color: #686972;
+}
+
+@media (max-width: 1020px) {
+  .achievements {
+    display: none;
+  }
+}
+
+.course-curriculum {
+  margin-top: 8rem;
+  padding: 6rem;
+  background-color: #f9ebfc;
+}
+
+.course-description {
+  background-color: #f4d6f8;
+  padding: 16px 28px;
+  width: 40%;
+  text-align: center;
+  margin-inline: auto;
+  border-radius: 100px;
+  color: #992e9d;
+}
+
+.course-details {
+  margin-block: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.course-details .gradient {
+  background: linear-gradient(45deg, #b73bbe, #ebcb2e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.courses-content {
+  background-color: white;
+  border-radius: 28px;
+  border: solid 1px #E5E5E8;
+  overflow: hidden;
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    border: solid 1px #E5E5E8;
+}
+
+.course-rhs .view {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  color: #992e9d;
+  background-color: #f9ebfc;
+  padding: 20px 24px;
+  border-radius: 100px;
+  font-weight: normal;
+}
+
+.course-lhs-heading {
+  font-size: 1.5rem;
+}
+
+.course-lhs-description {
+  font-weight: normal;
+  color: #686972;
+}
+
+@media (max-width: 1020px) {
+  .achievements {
+    display: none;
+  }
+
+  .course-curriculum {
+    padding: 2rem;
+  }
+
+  .course {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+
+  .course-description {
+    padding: 16px 18px;
+    width: auto;
+  }
+  
+  .course-rhs .view {
+    border-radius: 10px;
+    width: 400px;
+  }
+}
